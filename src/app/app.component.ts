@@ -13,7 +13,7 @@ import { RecipeListComponent } from './components/recipe-list/recipe-list.compon
 export class AppComponent implements OnInit {
   title = 'assignment4-recipe-app';
 
-  ngOnInit(): void {
+   ngOnInit(): void {
     console.log('=== AppComponent initialized ===');
     console.log('AppComponent: Application started successfully');
     console.log('AppComponent: Loading RecipeListComponent...');
